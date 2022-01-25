@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="number4">
-    <pose>0 0 0.4 0 0 0</pose>
+  <model name="number1">
+    <pose>0 0 0.9 0 0 0</pose>
     <static>true</static>
     <link name="link">
       <visual name="visual">
@@ -12,9 +12,9 @@
         </geometry>
         <material>
           <script>
-            <uri>model://number4/materials/scripts</uri>
-            <uri>model://number4/materials/textures</uri>
-            <name>Number/Four</name>
+            <uri>model://number1/materials/scripts</uri>
+            <uri>model://number1/materials/textures</uri>
+            <name>Number/One</name>
           </script>
         </material>
       </visual>
