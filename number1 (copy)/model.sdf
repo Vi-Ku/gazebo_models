@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="number1big">
+    <pose>0 0 0.4 0 0 0</pose>
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://number1/meshes/number.dae</uri>
+            <scale>40 40 40</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://number1/materials/scripts</uri>
+            <scale>10 10 10</scale>
+            <uri>model://number1/materials/textures</uri>
+            <scale>10 10 10</scale>
+            <name>Number/OneBig</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://number1/meshes/number.dae</uri>
+            <scale>40 40 40</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
