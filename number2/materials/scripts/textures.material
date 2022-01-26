@@ -1,4 +1,4 @@
-material Number/One
+material Number/Two
 {
   technique
   {
@@ -6,7 +6,7 @@ material Number/One
     {
       texture_unit
       {
-        texture number1.png
+        texture number2.png
       }
     }
   }
